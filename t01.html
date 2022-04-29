@@ -1,0 +1,44 @@
+<!-- css는 박스를 배치한다. -->
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html part 01</title>
+    <style>
+        /* 태그 선택자 {속성:속성값;} */
+        /* 박스를 같은사이즈로 만드는것 */
+        * {box-sizing: border-box;}
+        header {
+            /* 테두리를 기준으로 안쪽은 padding 바깥쪽은 margin */
+            color: red;
+            background-color: #f00;
+            width: 500px;
+            border: 1px solid #000;
+            padding: 50px;
+        }
+        main {
+            background-color:#ff0;
+            width: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 주석 : 박스모델 -->
+    <!-- 박스는 늘어난다. 투명하다. 옆에 아무것도 오지못한다. 높이값은 자동으로 나두는게 원칙! -->
+    <header>
+        <!-- h1을 사용하면 외부 여백이 생긴다. -->
+        01
+    </header>
+    <main>
+        0000
+    </main>
+    <script>
+    //
+    </script>
+</body>
+
+</html>
