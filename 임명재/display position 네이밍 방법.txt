@@ -1,0 +1,22 @@
+display: none; - 없애라 
+          block; 나타나게 하는것
+          inline-block; inline과 box의 성질을 둘다 가지고있음
+          flex; 박스를 가로로 배치 하는것
+          grid;
+          table;
+
+ 
+position : static; position을 파괴할때 쓰는것
+	relative; 기준점을 만들때 사용
+	absolute; 떠오른다. 쪼그라든다. 좌표를 가진다. 좌측상단에 표시됨 
+	fixed; viewport의 모서리로 자리를 잡는다. 스크롤의 영향을 받지않는다. 
+
+이름을 붙여주는것
+id   -- #으로 호출
+class -- .으로 호출
+tag 
+
+경로: /   루트로 이동
+      ./  생략이가능 
+      ../ 부모로 이동
+          
