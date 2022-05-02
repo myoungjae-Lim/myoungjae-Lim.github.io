@@ -1,3 +1,4 @@
+/* 창이 줄어들면 버튼이 생기게 하는법 */
 .mopen {
     display: none;
     position: fixed;

@@ -1,0 +1,29 @@
+<header>                   	<figure> 이미지가 포함된 태그
+<main>		      	<article> 본문, 내용
+<nav> div class="gnb" 메뉴	<aside>  
+<section> 큰 박스
+<footer>
+<header>             tag 선택자 -> header        
+<div id="header">    id  고유한것 -> #header
+<div class="header zzz son"> class -> .header , .zzz, .son 
+class는 공백을 두고 이름을 추가로 붙일수있음
+<div class="zzz son"> .zzz.son
+.header .zzz <- 이런 경우는 헤더의 자손중에 zzz가 있을 경우
+ 
+ selector(선택자)
+javascript의경우
+ <header>
+    <div class="top">01</div>
+ </header>
+
+ document.querySelector("header .top").style.color = "red"
+
+ +
+ ~
+ []
+
+ * (선택자) 모든 
+ 
+ 디자인 -> 퍼블리싱 -> 개발
+
+ javasript 모든 동작 (event) 
