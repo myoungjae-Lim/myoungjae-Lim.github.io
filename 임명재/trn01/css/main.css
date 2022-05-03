@@ -100,7 +100,7 @@
 
 /* 박스 전체의 크기를 늘려준뒤 그 안에서 사이즈의 변화를 주변 흔들림이없다. */
 .main_banner .container {
-    height: 250px;
+    height: 220px;
     align-items: flex-end;
 }
 
@@ -175,7 +175,7 @@
     flex: 2;
     text-align: right;
     background: #f6f6f6;
-    padding: 50px 30px 0 0;
+    padding: 25px 35px 50px 0;
     border: 20px solid transparent;
     
 }
@@ -314,6 +314,7 @@
     display: inline-block;    
 }
 
+/* li~li이면은 자기자신은 빠진다. */
 .footer ul>li~li::before {
     content: "";
     display: inline-block;
@@ -328,5 +329,5 @@
 .footer ul {
     margin: 10px 0;
 }
-/* li~li이면은 자기자신은 빠진다. */
+
 
