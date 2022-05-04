@@ -44,7 +44,7 @@
     position: absolute;
     top: 100px;
     right: 600px;
-    
+
 }
 
 /* transform은 레이아웃을 깨지않는다.  */
@@ -82,9 +82,9 @@
     padding: 30px 0 0 0;
 }
 
- /* 슬라이더 버튼을 가로로 inline-block */
+/* 슬라이더 버튼을 가로로 inline-block */
 .main_slider .slick-dots li {
-    
+
     display: inline-block;
     margin: 0 10px 0 0;
     width: 80px;
@@ -122,9 +122,9 @@
 }
 
 .main_banner figure:hover {
-    
+
     height: 220px;
-    
+
 }
 
 /*.main_banner .container:hover figure {
@@ -132,16 +132,19 @@
 }*/
 
 .main_banner figure:nth-child(1) {
-    background:#e7948f
+    background: #e7948f
 }
+
 .main_banner figure:nth-child(2) {
-    background:#f4cb4f
+    background: #f4cb4f
 }
+
 .main_banner figure:nth-child(3) {
-    background:#337689
+    background: #337689
 }
+
 .main_banner figure:nth-child(4) {
-    background:#6fa476
+    background: #6fa476
 }
 
 .main_banner figure a {
@@ -150,12 +153,12 @@
     justify-content: center;
     width: 100px;
     height: 120px;
-    
+
     font-size: 13px;
 }
 
 
-.main_banner figure:nth-child(1) a{
+.main_banner figure:nth-child(1) a {
     background: url(../img/icon_set_w.png) no-repeat 0 0;
     /* transition: 0.5s; */
 }
@@ -164,15 +167,15 @@
     background: url(../img/icon_set_w.png) no-repeat -300px 0;
 }*/
 
-.main_banner figure:nth-child(2) a{
+.main_banner figure:nth-child(2) a {
     background: url(../img/icon_set_w.png) no-repeat -100px 0;
 }
 
-.main_banner figure:nth-child(3) a{
+.main_banner figure:nth-child(3) a {
     background: url(../img/icon_set_w.png) no-repeat -200px 0;
 }
 
-.main_banner figure:nth-child(4) a{
+.main_banner figure:nth-child(4) a {
     background: url(../img/icon_set_w.png) no-repeat -300px 0;
 }
 
@@ -183,7 +186,7 @@
     background: #f6f6f6;
     padding: 25px 35px 50px 0;
     border: 20px solid transparent;
-    
+
 }
 
 .main_banner .customer a {
@@ -198,15 +201,15 @@
 }
 
 .main_banner .customer i {
-    position:absolute;
+    position: absolute;
     top: -50px;
     right: 30px;
     font-size: 40px;
     padding: 10px;
     border-radius: 50%;
-    background: #f00 ;
+    background: #f00;
     color: #fff;
-    
+
 }
 
 .main_link .container {
@@ -227,17 +230,18 @@
     right: 30px;
     width: 60px;
     height: 60px;
-    background: rgba(243, 202, 79,0.5);
+    background: rgba(243, 202, 79, 0.5);
     text-align: center;
     line-height: 60px;
     color: #fff;
     border-radius: 50%;
     text-transform: uppercase;
     transition: 0.5s;
-    
+
 }
+
 .main_link figure a:hover {
-    background: rgba(243, 202, 79,1);
+    background: rgba(243, 202, 79, 1);
     border-radius: 5px;
 }
 
@@ -317,7 +321,7 @@
 }
 
 .footer ul>li {
-    display: inline-block;    
+    display: inline-block;
 }
 
 /* li~li이면은 자기자신은 빠진다. */
@@ -329,7 +333,7 @@
     background: #333;
     margin: 0 15px;
     vertical-align: middle;
-    
+
 }
 
 .footer ul {
@@ -351,17 +355,17 @@
         width: auto;
         margin: 0 auto;
     }
-    
+
     .headerWrap .top_banner {
         display: none;
         border-bottom: 1px solid #ddd;
         line-height: 40px;
     }
-    
+
     .headerWrap .top_banner span {
         margin: 0 0 0 auto;
     }
-    
+
     .headerWrap .top_banner a {
         margin: 0 0 0 10px;
         padding: 0 10px;
@@ -372,7 +376,7 @@
     .headerWrap h1 {
         padding: 0 15px;
     }
-    
+
     .headerWrap .gnb {
         position: fixed;
         top: 0;
@@ -389,7 +393,7 @@
     .headerWrap .gnb.on {
         left: 0;
     }
-    
+
     .headerWrap .gnb>ul {
         display: flex;
         flex-direction: column;
@@ -398,9 +402,9 @@
         line-height: 40px;
         font-size: 19px;
         font-weight: 500;
-            
+
     }
-    
+
     .headerWrap .gnb>ul a {
         display: block;
         border-bottom: 1px solid #ddd;
@@ -411,17 +415,17 @@
         position: relative;
         height: calc(100vh - 90px);
         background: url(../img/main_slider01.jpg) no-repeat right top/cover;
-    
+
     }
-    
+
     .mainVisual .slogan {
         display: none;
         position: absolute;
         top: 100px;
         right: 600px;
-        
+
     }
-    
+
     /* transform은 레이아웃을 깨지않는다.  */
     .mainVisual .main_slider {
         position: absolute;
@@ -433,7 +437,7 @@
         padding: 0 30px;
         text-align: center;
     }
-    
+
     .main_slider h3 {
         font-size: 11vw;
         font-weight: 900;
@@ -443,40 +447,40 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-    
+
     .main_slider strong {
         display: block;
         margin: 0 0 20px 0;
         color: #fd7e14;
     }
-    
+
     .main_slider .slick-dots {
         text-align: center;
         padding: 30px 0 0 0;
     }
-    
-     /* 슬라이더 버튼을 가로로 inline-block */
+
+    /* 슬라이더 버튼을 가로로 inline-block */
     .main_slider .slick-dots li {
-        
+
         display: inline-block;
         margin: 0 5px 0 0;
         width: 10px;
         height: 10px;
         background: #333;
     }
-    
+
     .main_slider .slick-dots li.slick-active {
         background: #fd7e14;
     }
-    
+
     .main_slider .slick-dots button {
         display: none;
     }
-    
+
     .main_banner {
         transform: translateY(0);
     }
-    
+
     /* 박스 전체의 크기를 늘려준뒤 그 안에서 사이즈의 변화를 주변 흔들림이없다. */
     .main_banner .container {
         height: auto;
@@ -484,7 +488,7 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    
+
     .main_banner figure {
         display: flex;
         flex: 1 1 50%;
@@ -495,62 +499,65 @@
         height: 200px;
         transition: 0.3s;
     }
-    
-     .main_banner figure:hover { 
-        
+
+    .main_banner figure:hover {
+
         height: 200px;
-        
+
     }
-    
+
     /*.main_banner .container:hover figure {
         transform-origin: 0 100% scaleY(1.5);
     }*/
-    
+
     .main_banner figure:nth-child(1) {
-        background:#e7948f
+        background: #e7948f
     }
+
     .main_banner figure:nth-child(2) {
-        background:#f4cb4f
+        background: #f4cb4f
     }
+
     .main_banner figure:nth-child(3) {
-        background:#337689
+        background: #337689
     }
+
     .main_banner figure:nth-child(4) {
-        background:#6fa476
+        background: #6fa476
     }
-    
+
     .main_banner figure a {
         display: flex;
         align-items: flex-end;
         justify-content: center;
         width: 100px;
         height: 120px;
-        
+
         font-size: 13px;
     }
-    
-    
-    .main_banner figure:nth-child(1) a{
+
+
+    .main_banner figure:nth-child(1) a {
         background: url(../img/icon_set_w.png) no-repeat 0 0;
         /* transition: 0.5s; */
     }
-    
+
     /*.main_banner figure:nth-child(1):hover a{
         background: url(../img/icon_set_w.png) no-repeat -300px 0;
     }*/
-    
-    .main_banner figure:nth-child(2) a{
+
+    .main_banner figure:nth-child(2) a {
         background: url(../img/icon_set_w.png) no-repeat -100px 0;
     }
-    
-    .main_banner figure:nth-child(3) a{
+
+    .main_banner figure:nth-child(3) a {
         background: url(../img/icon_set_w.png) no-repeat -200px 0;
     }
-    
-    .main_banner figure:nth-child(4) a{
+
+    .main_banner figure:nth-child(4) a {
         background: url(../img/icon_set_w.png) no-repeat -300px 0;
     }
-    
+
     .main_banner .customer {
         position: relative;
         flex: 2;
@@ -558,9 +565,9 @@
         background: #f6f6f6;
         padding: 25px 35px 50px 0;
         border: 20px solid transparent;
-        
+
     }
-    
+
     .main_banner .customer a {
         display: block;
         margin: 0 0 15px 0;
@@ -571,67 +578,68 @@
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
-    
+
     .main_banner .customer i {
-        position:absolute;
+        position: absolute;
         top: -50px;
         right: 30px;
         font-size: 40px;
         padding: 10px;
         border-radius: 50%;
-        background: #f00 ;
+        background: #f00;
         color: #fff;
-        
+
     }
-    
+
     .main_link .container {
         padding: 50px 15px;
         gap: 30px;
     }
-    
+
     .main_link figure {
         position: relative;
         flex: 1;
         border-radius: 50px 0 0 0;
         overflow: hidden;
-    
+
     }
-    
+
     .main_link figure a {
         position: absolute;
         top: 50%;
         right: 30px;
         width: 60px;
         height: 60px;
-        background: rgba(243, 202, 79,0.5);
+        background: rgba(243, 202, 79, 0.5);
         text-align: center;
         line-height: 60px;
         color: #fff;
         border-radius: 50%;
         text-transform: uppercase;
         transition: 0.5s;
-        
+
     }
+
     .main_link figure a:hover {
-        background: rgba(243, 202, 79,1);
+        background: rgba(243, 202, 79, 1);
         border-radius: 5px;
     }
-    
+
     .main_link img {
         width: 100%;
         margin: 0 0 50px 0;
     }
-    
+
     .main_link h3 {
         font-size: 23px;
         margin: 0 0 30px 0;
     }
-    
+
     .main_link p {
         font-size: 13px;
     }
-    
-        
+
+
     .main_link h3::after {
         content: "";
         display: block;
@@ -640,12 +648,12 @@
         background: #fd7e14;
         margin: 15px 0;
     }
-    
+
     .main_link {
         padding: 0 0 100px 0;
         background: linear-gradient(to top, #f7f7f7 70%, transparent 30%);
     }
-    
+
     .footer {
         border: 1px solid #ddd;
         padding: 50px 0;
@@ -653,19 +661,19 @@
         background: #000;
         color: #fff;
     }
-    
+
     .footer address {
         font-style: normal;
     }
-    
+
     .footer ul>li {
-        display: inline-block;  
-        padding: 5px 7px;  
+        display: inline-block;
+        padding: 5px 7px;
     }
-    
+
     /* li~li이면은 자기자신은 빠진다. */
     .footer ul>li~li::before {
-        
+
         content: "";
         display: none;
         width: 1px;
@@ -673,10 +681,10 @@
         background: #333;
         margin: 0 15px;
         vertical-align: middle;
-        
-        
+
+
     }
-    
+
     .footer ul {
         margin: 10px 0;
     }
@@ -688,10 +696,55 @@
         width: 30px;
         height: 30px;
         background: #ddd;
-    } 
-    
-    
-    
+        transition: 0.5s;
+    }
+
+    .mopen .bars {
+        position: absolute;
+        top: 13px;
+        left: 5px;
+        right: 5px;
+        height: 3px;
+        background: #333;
+    }
+
+    .mopen .bars::after {
+        content: "";
+        position: absolute;
+        top: auto;
+        bottom: 8px;
+        left: 0px;
+        right: 0px;
+        height: 3px;
+        background: #333;
+    }
+
+    .mopen .bars::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0px;
+        right: 0px;
+        height: 3px;
+        background: #333;
+    }
+
+    .mopen.on .bars {
+        transform: rotate(45deg);
+    }
+
+    .mopen.on .bars::after {
+        bottom: 0;
+        transform: rotate(90deg);
+
+    }
+
+    .mopen.on .bars::before {
+        top: 0;
+
+    }
+
+    /*
     .mopen span {
         position: absolute;
         top: 5px;
@@ -723,7 +776,6 @@
     .mopen.on span:nth-child(3) {
         top: 13px;
         transform: rotate(-45deg);
-    }
-    
-}
+    }*/
 
+}
