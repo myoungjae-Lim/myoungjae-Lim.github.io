@@ -650,6 +650,8 @@
         border: 1px solid #ddd;
         padding: 50px 0;
         text-align: center;
+        background: #000;
+        color: #fff;
     }
     
     .footer address {
@@ -697,7 +699,7 @@
         right: 5px;        
         height: 3px;
         background: #333;
-        transition: 0.5s;
+        transition: 0.3s;
     }
 
     .mopen span:nth-child(1) {
@@ -707,23 +709,21 @@
         top: 13px;
     }
     .mopen span:nth-child(3) {
-        top: 13px;
-    }
-    .mopen span:nth-child(4) {
         top: 21px;
     }
+    
 
     .mopen.on span:nth-child(1) {
-        display: none;
+        top: 13px;
+        transform: rotate(45deg);
     }
     .mopen.on span:nth-child(2) {
         transform: rotate(45deg);
     }
     .mopen.on span:nth-child(3) {
+        top: 13px;
         transform: rotate(-45deg);
     }
-    .mopen.on span:nth-child(4) {
-       display: none;
-    }
+    
 }
 
