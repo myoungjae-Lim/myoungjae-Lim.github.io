@@ -56,6 +56,12 @@
     width: 1200px;
 }
 
+/* 슬라이더 크기를 같게 만들어준다. */
+.main_slider .itm {
+    height: 300px;
+
+}
+
 .main_slider h3 {
     font-size: 60px;
     font-weight: 900;
@@ -64,7 +70,6 @@
     background: -webkit-linear-gradient(-70deg, #a2facf 0%, #0d47e6 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-    overflow: auto;
 }
 
 .main_slider strong {
@@ -421,7 +426,7 @@
     .mainVisual .main_slider {
         position: absolute;
         top: auto;
-        bottom: 150px;
+        bottom: 60px;
         left: 0;
         transform: translate(0, 0);
         width: 100%;
@@ -430,7 +435,7 @@
     }
     
     .main_slider h3 {
-        font-size: 9.5vw;
+        font-size: 11vw;
         font-weight: 900;
         margin: 0 0 30px 0;
         text-shadow: 1px 0 3px rgb(255 255 255 / 25%);
