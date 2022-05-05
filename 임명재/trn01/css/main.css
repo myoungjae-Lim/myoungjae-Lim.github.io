@@ -736,11 +736,13 @@
     .mopen.on .bars::after {
         bottom: 0;
         transform: rotate(90deg);
+        transition: 0.5s;
 
     }
 
     .mopen.on .bars::before {
         top: 0;
+        transition: 0.5s;
 
     }
 
