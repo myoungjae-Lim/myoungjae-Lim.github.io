@@ -222,3 +222,99 @@ nav>ul>li~li::before {
 
 }
 
+.mid {
+    
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+.mid .container {
+    width: 1200px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.mid h2 {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5em;
+}
+
+.mid p {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 30px 0;
+}
+
+.mid figure .case {    
+    overflow: hidden;
+}
+
+.mid figure img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.mid figure img:hover {
+    transform: scale(1.5);
+}
+
+.mid .container figure {
+    flex: 1;
+}
+
+.mid figure strong {
+    display: block;
+    padding: 20px 0;
+}
+
+.mid figure a {
+    display: inline-block;
+    border: 1px solid #333;
+    color: #333;    
+    background: #fff;
+    margin: 0 auto;
+    padding: 5px 20px 8px 20px;
+}
+
+.mid figure a:hover {
+    color: #fff;
+    background: #f00;
+}
+
+/* .mid .figure1 {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.mid .figure1.on {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.mid .figure2 {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.mid .figure2.on {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 0.5s;
+}
+
+.mid .figure3 {
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.mid .figure3.on {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 0.5s 1s;
+} */
+
+

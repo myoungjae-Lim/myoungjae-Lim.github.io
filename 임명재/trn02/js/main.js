@@ -18,7 +18,19 @@ $(function(){
         pauseOnFocus: false,
     });
 
-    
+    // $(window).on('scroll',function(){
+    //     let sct = $(window).scrollTop();            
+    //     if(sct >= 200){
+    //         $('.mid .figure1').addClass('on');
+    //         $('.mid .figure2').addClass('on');
+    //         $('.mid .figure3').addClass('on');
+    //     }
+    //     if(sct < 200){
+    //         $('.mid .figure1').removeClass('on');
+    //         $('.mid .figure2').removeClass('on');
+    //         $('.mid .figure3').removeClass('on');
+    //     }
+    // })
 
 
 
