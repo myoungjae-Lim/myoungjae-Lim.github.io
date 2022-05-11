@@ -82,6 +82,11 @@ $(function(){
         }
     })
 
+    $('.mopen').on('click', function(){
+        $('.gnb nav').toggleClass('on')
+        $(this).toggleClass('on')
+    })
+
     
     AOS.init();
    
