@@ -51,6 +51,8 @@ $(function(){
         slidesToScroll: 1,
         arrows: false,
         dots: true,
+        centerMode:true,
+        autoplay:true,
     });
 
     $('.product i:nth-of-type(1)').on('click',function(){
@@ -64,8 +66,23 @@ $(function(){
     $('.product_slide').on('init reInit afterChange', function(){
         let current = $('.slick-current');
         current.addClass('on').siblings().removeClass('on');
+       
     });
 
+    $('.tap_link>li').on('click',function(){
+        var idx = $(this).index();
+        $(this).addClass('on').siblings().removeClass('on');
+        $('.tap_content>li').eq(idx).addClass('on').siblings().removeClass('on');
+    })
+
+    $('.footer #link').on('change',function(){
+        var lik = $(this).val();
+        if(lik){
+            window.open(lik);
+        }
+    })
+
+    
     AOS.init();
    
 
