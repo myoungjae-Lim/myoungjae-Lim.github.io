@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background: #eee;
+        }
         .box {
             position: relative;
             border: 1px solid transparent;
@@ -51,11 +54,232 @@
             background: #00f;
             z-index: 999;
         }
+
+        .gun {
+            position: absolute;
+            top: -50%;
+            left: -100%;
+            transform: translateY(-75%);
+            height: 3px;
+            width: 60px;
+            background: #333;
+            transform: rotate(-45deg); 
+        }
+
+        .gun::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .gun::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .gon {
+            position: absolute;
+            bottom: -50%;
+            left: -100%;
+            transform: translateY(-75%);
+            height: 3px;
+            width: 60px;
+            background: #333;
+            transform: rotate(45deg);
+        }
+
+        .gon::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .gon::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            left: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+        
+        .gon_cut {
+            position: absolute;            
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);            
+            height: 3px;
+            width: 10px;
+            background: #ddd;     
+            z-index: 1000;
+        }
+
+        .gam {
+            position: absolute;
+            top: -50%;
+            right: -100%;
+            transform: translateY(-75%);
+            height: 3px;
+            width: 60px;
+            background: #333;
+            transform: rotate(45deg); 
+        }
+
+        .gam::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .gam::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            right: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .gam_cut {
+            position: absolute;            
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);            
+            height: 3px;
+            width: 10px;
+            background: #333;     
+            z-index: 1000;
+        }
+
+        .gam_cut::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            height: 3px;
+            width: 10px;
+            background: #ddd;
+        }
+
+        .gam_cut::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            right: 0;
+            height: 3px;
+            width: 10px;
+            background: #ddd;
+        }
+
+        .ri {
+            position: absolute;
+            bottom: -50%;
+            right: -100%;
+            transform: translateY(-75%);
+            height: 3px;
+            width: 60px;
+            background: #333;
+            transform: rotate(-45deg);  
+        }
+
+        .ri::before{
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: 10px;
+            right: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .ri::after{
+            content: "";
+            display: block;
+            position: absolute;
+            bottom: -10px;
+            right: 0;
+            height: 3px;
+            width: 60px;
+            background: #333;
+        }
+
+        .ri_cut {
+            position: absolute;
+            bottom: 0;
+            right: 50%;
+            transform: translateX(50%); 
+            height: 3px;
+            width: 10px;
+            background: #ddd;
+              
+        }
+
+        .ri_cut::before{
+            content: "";
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 0;
+            height: 3px;
+            width: 10px;
+            background: #ddd;
+            z-index: 1000;
+        }
+
+        .ri_cut::after{
+            content: "";
+            display: block;
+            position: absolute;
+            top: -10px;
+            right: 0;
+            height: 3px;
+            width: 10px;
+            background: #ddd;
+        }
+
+
     </style>
 </head>
 <body>
     <div class="box">
         <div class="radi"></div>
+        <div class="gun"></div>
+        <div class="gon">
+            <div class="gon_cut"></div>
+        </div>
+        <div class="gam">
+            <div class="gam_cut"></div>
+        </div>
+        <div class="ri"><div class="ri_cut"></div></div>       
+        
     </div>
 </body>
 </html>

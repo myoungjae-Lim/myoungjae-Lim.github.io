@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .diamond {
+            border-style: solid;
+            border-color: transparent transparent #0ff;
+            border-width: 0 25px 25px 25px;
+            height: 0;
+            width: 50px;
+            box-sizing: content-box;
+            position: relative;
+            margin: 20px 0 50px 0;
+            
+            outline: none;
+        }
+
+        .diamond:after {
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: -25px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-color: #0ff transparent transparent transparent;
+            border-width: 70px 50px 0 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="diamond"></div>
+</body>
+
+</html>

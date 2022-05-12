@@ -233,9 +233,10 @@ nav>ul>li~li::before {
         bottom: -50px;
         right: 195px;
         font-size: 20px;
-        color: #ff0;
+        color: #0ff;
         mix-blend-mode: difference;
         cursor: pointer;
+        transition: 0.5s;
         z-index: 1001;
     }
 
