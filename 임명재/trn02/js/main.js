@@ -53,6 +53,22 @@ $(function(){
         dots: true,
         centerMode:true,
         autoplay:true,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+                
+              }
+            }
+            
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ]
     });
 
     $('.product i:nth-of-type(1)').on('click',function(){
@@ -86,6 +102,23 @@ $(function(){
         $('.gnb nav').toggleClass('on')
         $(this).toggleClass('on')
     })
+
+    $('.totop').on('click', function(){
+        $('html,body').animate({scrollTop:0}, 1000);
+    });
+
+    $(window).on('scroll',function(){
+        let sct = $(window).scrollTop();            
+        sct > 300 ? $('.totop').fadeIn() : $('.totop').fadeOut();
+    })
+
+    $('#searchForm button').on('click',function(){
+        $('#searchForm .input_box').addClass('on');
+    })
+
+    $('#searchForm .input_box .closeS').on('click',function(){
+        $('#searchForm .input_box').removeClass('on');
+    })   
 
     
     AOS.init();

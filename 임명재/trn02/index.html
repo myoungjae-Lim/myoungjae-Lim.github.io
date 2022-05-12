@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/slick.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
+    <link href="./css/hamburger.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -45,18 +46,22 @@
                             <li><a href="">특별한 솔리테어</a></li>
                         </ul>
                     </nav>
-
+                    
                     <form action="javascript:formSubmit()" id="searchForm">
-                        <input type="text">
-                        <button>
-                            <i class="xi-search"></i>
-                        </button>
-                        <script>
+                        <div class="input_box">
+                            <input type="text">
+                            <button>
+                                <i class="xi-search"></i>
+                            </button>
+                            <i class="xi-close-circle-o closeS"></i>
+                        </div>
+                    
+                        <script>                           
                             function formSubmit() {
                                 let inVar = document.querySelector('#searchForm input');
                                 console.log(inVar.value);
                                 if (inVar.value.length < 8) {
-                                    alert('말이짧다.');
+                                    alert('검색어를 입력해 주세요.');
                                     inVar.value = '';
                                     inVar.focus();
                                 }
@@ -148,7 +153,7 @@
             <section class="movie">
                 <div class="container">
                     <figure>
-                        <video src="./img/movie.mp4" muted autoplay loop></video>
+                        <video src="./img/movie.mp4" muted autoplay loop playsinline></video>
                     </figure>
                     <div class="dec">
                         <h2>JEWELLERY COLLECTION</h2>
@@ -432,6 +437,8 @@
         <div class="mopen">
             <div class="bars"></div>
         </div>
+        <i class="xi-arrow-top totop"></i>
+    
     </div>
 
     <!-- javascript -->
